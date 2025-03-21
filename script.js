@@ -139,7 +139,7 @@ const material1 = new THREE.MeshStandardMaterial({
 // Load the model
 const objloader = new OBJLoader();
 objloader.load(
-    'https://github.com/sergiogonza/Dionysius/raw/refs/heads/main/dy2.glb',
+    'https://cdn.glitch.global/c536c49d-7661-4fd9-81b8-918d12539028/dy2.glb',
  (object) => {
         object.children[0].material = material1;
         object.scale.setScalar( 20 );
